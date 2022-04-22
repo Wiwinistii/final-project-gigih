@@ -88,7 +88,7 @@ function Spotify() {
       <div className="spotify-track">
         {searchResult.length === 0 ? (
           <div className="newRelease">
-            <p className="searchTitle">New Release Song</p>
+            <p className="searchTitle"></p>
             <div className="listOf-track">{displayRelease}</div>
             <div className="pagination">
               <Pagination
@@ -103,7 +103,7 @@ function Spotify() {
           </div>
         ) : (
           <div className="searchResult">
-            <p className="searchTitle">Search Result</p>
+            <p className="searchTitle"></p>
             <div className="listOf-track">{displaySearch}</div>
             <div className="pagination">
               <Pagination

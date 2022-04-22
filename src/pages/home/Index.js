@@ -10,7 +10,7 @@ import Spotify from "../spotify/Index";
 function Home () {
   const BASE_URL = "https://api.spotify.com/v1";
   const CLIENT_ID = "156d8ff82a664cdca18c4ff13c8809f3";
-  const REDIRECT_URI = "http://localhost:3000/songspotify";
+  const REDIRECT_URI = "http://localhost:3000/create-playlist";
   const SPOTIFY_AUTHORIZE_ENDPOINT = "https://accounts.spotify.com/authorize";
   const SCOPE = "playlist-modify-private";
   const AUTH_URL = `${SPOTIFY_AUTHORIZE_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&scope=${SCOPE}&response_type=token&show_dialog=true`;
